@@ -1,0 +1,31 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local secrets and credentials (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# Editor, OS, and local agent configuration
+.vscode/
+.idea/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+Desktop.ini
